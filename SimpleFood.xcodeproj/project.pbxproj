@@ -15,6 +15,10 @@
 		D48E6493229CF90A00581748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48E6491229CF90A00581748 /* LaunchScreen.storyboard */; };
 		D48E649E229CF90A00581748 /* SimpleFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E649D229CF90A00581748 /* SimpleFoodTests.swift */; };
 		D48E64A9229CF90A00581748 /* SimpleFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E64A8229CF90A00581748 /* SimpleFoodUITests.swift */; };
+		D48E64B7229D05C600581748 /* ToolsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E64B6229D05C600581748 /* ToolsCollectionViewController.swift */; };
+		D48E64B9229D05CF00581748 /* IngredientsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E64B8229D05CF00581748 /* IngredientsCollectionViewController.swift */; };
+		D48E64BB229D05DB00581748 /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E64BA229D05DB00581748 /* RecipesTableViewController.swift */; };
+		D48E64BD229D05F300581748 /* FarmersMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E64BC229D05F300581748 /* FarmersMarketViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D48E64A4229CF90A00581748 /* SimpleFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48E64A8229CF90A00581748 /* SimpleFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFoodUITests.swift; sourceTree = "<group>"; };
 		D48E64AA229CF90A00581748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48E64B6229D05C600581748 /* ToolsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsCollectionViewController.swift; sourceTree = "<group>"; };
+		D48E64B8229D05CF00581748 /* IngredientsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCollectionViewController.swift; sourceTree = "<group>"; };
+		D48E64BA229D05DB00581748 /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
+		D48E64BC229D05F300581748 /* FarmersMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersMarketViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				D48E6485229CF90800581748 /* AppDelegate.swift */,
 				D48E6487229CF90800581748 /* ViewController.swift */,
 				D48E6489229CF90800581748 /* Main.storyboard */,
+				D48E64B6229D05C600581748 /* ToolsCollectionViewController.swift */,
+				D48E64B8229D05CF00581748 /* IngredientsCollectionViewController.swift */,
+				D48E64BA229D05DB00581748 /* RecipesTableViewController.swift */,
+				D48E64BC229D05F300581748 /* FarmersMarketViewController.swift */,
 				D48E648F229CF90A00581748 /* Assets.xcassets */,
 				D48E6491229CF90A00581748 /* LaunchScreen.storyboard */,
 				D48E6494229CF90A00581748 /* Info.plist */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D48E648E229CF90900581748 /* SimpleFood.xcdatamodeld in Sources */,
+				D48E64B9229D05CF00581748 /* IngredientsCollectionViewController.swift in Sources */,
 				D48E6488229CF90800581748 /* ViewController.swift in Sources */,
+				D48E64B7229D05C600581748 /* ToolsCollectionViewController.swift in Sources */,
+				D48E64BB229D05DB00581748 /* RecipesTableViewController.swift in Sources */,
+				D48E64BD229D05F300581748 /* FarmersMarketViewController.swift in Sources */,
 				D48E6486229CF90800581748 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
